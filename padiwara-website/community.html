@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Community - Padiwara</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="home.html" class="text-2xl font-bold text-green-700">Padiwara</a>
+      <nav class="space-x-6 text-gray-700 hidden md:flex">
+        <a href="home.html" class="hover:text-green-700 transition">Home</a>
+        <a href="about.html" class="hover:text-green-700 transition">About Us</a>
+        <a href="ecosystem.html" class="hover:text-green-700 transition">Ecosystem</a>
+        <a href="marketplace.html" class="hover:text-green-700 transition">Marketplace</a>
+        <a href="impact.html" class="hover:text-green-700 transition">Impact</a>
+        <a href="community.html" class="hover:text-green-700 transition font-semibold text-green-800">Community</a>
+        <a href="contact.html" class="hover:text-green-700 transition">Contact</a>
+      </nav>
+      <button class="md:hidden text-gray-700 focus:outline-none" aria-label="Toggle menu" id="menu-btn">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-10 space-y-16">
+    <h1 class="text-4xl font-extrabold text-green-800 mb-10 text-center">Community & Learning</h1>
+
+    <!-- Discussion Forum -->
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">Discussion Forum</h2>
+      <p class="max-w-4xl mx-auto text-gray-700 text-center mb-6">Join conversations with farmers, artisans, and consumers to share knowledge, ask questions, and build community.</p>
+      <div class="max-w-6xl mx-auto bg-white rounded-lg shadow p-6">
+        <ul class="divide-y divide-gray-200">
+          <li class="py-4 flex justify-between items-center">
+            <div>
+              <h3 class="font-semibold text-green-800">Sustainable Crafting Techniques</h3>
+              <p class="text-gray-600">Discussion on best practices for eco-friendly product creation.</p>
+            </div>
+            <span class="text-sm text-gray-500">24 posts</span>
+          </li>
+          <li class="py-4 flex justify-between items-center">
+            <div>
+              <h3 class="font-semibold text-green-800">Farmers' Market Insights</h3>
+              <p class="text-gray-600">Sharing tips and experiences from local markets.</p>
+            </div>
+            <span class="text-sm text-gray-500">18 posts</span>
+          </li>
+          <li class="py-4 flex justify-between items-center">
+            <div>
+              <h3 class="font-semibold text-green-800">Carbon Footprint Reduction</h3>
+              <p class="text-gray-600">Ideas and strategies to minimize environmental impact.</p>
+            </div>
+            <span class="text-sm text-gray-500">30 posts</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Training Center & E-Courses -->
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">Training Center & E-Courses</h2>
+      <p class="max-w-4xl mx-auto text-gray-700 text-center mb-6">Access online courses and training materials to enhance your skills and knowledge.</p>
+      <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-lg text-green-800 mb-2">Sustainable Farming Practices</h3>
+          <p class="text-gray-600">Learn techniques to improve crop yield and reduce waste.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-lg text-green-800 mb-2">Crafting with Rice Husk Boards</h3>
+          <p class="text-gray-600">Step-by-step tutorials for artisans.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-lg text-green-800 mb-2">Carbon Footprint Awareness</h3>
+          <p class="text-gray-600">Understand the impact of your actions on the environment.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events & Webinars -->
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">Events & Webinars</h2>
+      <p class="max-w-4xl mx-auto text-gray-700 text-center mb-6">Stay updated on upcoming events, workshops, and webinars.</p>
+      <ul class="max-w-4xl mx-auto space-y-4 text-gray-700">
+        <li class="border-l-4 border-green-700 pl-4">
+          <h3 class="font-semibold text-lg">Sustainable Crafting Workshop</h3>
+          <p>April 15, 2024 - Learn hands-on techniques for eco-friendly product creation.</p>
+        </li>
+        <li class="border-l-4 border-green-700 pl-4">
+          <h3 class="font-semibold text-lg">Carbon Footprint Reduction Webinar</h3>
+          <p>May 10, 2024 - Strategies to reduce your environmental impact.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Blog & News Updates -->
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">Blog & News Updates</h2>
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <article class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-lg text-green-800 mb-2">Innovations in Rice Husk Crafting</h3>
+          <p class="text-gray-600">Exploring new techniques and materials for sustainable products.</p>
+        </article>
+        <article class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-lg text-green-800 mb-2">Community Success Stories</h3>
+          <p class="text-gray-600">Highlighting achievements of farmers and artisans.</p>
+        </article>
+        <article class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-lg text-green-800 mb-2">Upcoming Events and Workshops</h3>
+          <p class="text-gray-600">Stay informed about opportunities to learn and connect.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t mt-20 py-6 text-center text-gray-600 text-sm">
+    &copy; 2024 Padiwara. All rights reserved.
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const nav = document.querySelector('nav');
+    menuBtn.addEventListener('click', () => {
+      nav.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
