@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Padiwara Ecosystem</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="home.html" class="text-2xl font-bold text-green-700">Padiwara</a>
+      <nav class="space-x-6 text-gray-700 hidden md:flex">
+        <a href="home.html" class="hover:text-green-700 transition">Home</a>
+        <a href="about.html" class="hover:text-green-700 transition">About Us</a>
+        <a href="ecosystem.html" class="hover:text-green-700 transition font-semibold text-green-800">Ecosystem</a>
+        <a href="marketplace.html" class="hover:text-green-700 transition">Marketplace</a>
+        <a href="impact.html" class="hover:text-green-700 transition">Impact</a>
+        <a href="community.html" class="hover:text-green-700 transition">Community</a>
+        <a href="contact.html" class="hover:text-green-700 transition">Contact</a>
+      </nav>
+      <button class="md:hidden text-gray-700 focus:outline-none" aria-label="Toggle menu" id="menu-btn">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-10 space-y-20">
+    <h1 class="text-4xl font-extrabold text-green-800 mb-10 text-center">Padiwara Ecosystem</h1>
+
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">For Farmers</h2>
+      <div class="max-w-5xl mx-auto space-y-6 text-gray-700">
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">Why Join Padiwara</h3>
+          <p>Farmers can transform their rice husk waste into valuable resources, gaining new income streams and contributing to environmental sustainability.</p>
+        </article>
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">How It Works</h3>
+          <p>Through supply mapping and selling waste, farmers connect with artisans and buyers to create a circular economy.</p>
+        </article>
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">Success Stories</h3>
+          <p>Discover inspiring case studies of farmers who have benefited from joining Padiwara.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">For Artisans</h2>
+      <div class="max-w-5xl mx-auto space-y-6 text-gray-700">
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">Why Use Rice Husk Boards</h3>
+          <p>Artisans can create sustainable products using rice husk boards, reducing environmental impact and promoting craftsmanship.</p>
+        </article>
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">How It Works</h3>
+          <p>Sourcing materials from farmers and crafting unique products that highlight sustainability and quality.</p>
+        </article>
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">Artisan Training & Resources</h3>
+          <p>Access training programs and resources to enhance skills and product quality.</p>
+        </article>
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">Showcase Gallery</h3>
+          <p>Explore a gallery of artisan creations made from rice husk boards.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">For Consumers</h2>
+      <div class="max-w-5xl mx-auto space-y-6 text-gray-700">
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">Padiwara Products Explained</h3>
+          <p>Learn about the unique features and benefits of Padiwara's sustainable products.</p>
+        </article>
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">Carbon Footprint Benefits</h3>
+          <p>Understand how purchasing Padiwara products helps reduce carbon footprints.</p>
+        </article>
+        <article>
+          <h3 class="text-2xl font-semibold mb-2">How to Support Sustainable Craftsmanship</h3>
+          <p>Find out ways to support artisans and sustainable practices through your purchases.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t mt-20 py-6 text-center text-gray-600 text-sm">
+    &copy; 2024 Padiwara. All rights reserved.
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const nav = document.querySelector('nav');
+    menuBtn.addEventListener('click', () => {
+      nav.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
