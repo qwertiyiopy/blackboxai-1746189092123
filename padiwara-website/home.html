@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Padiwara - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="home.html" class="text-2xl font-bold text-green-700">Padiwara</a>
+      <nav class="space-x-6 text-gray-700 hidden md:flex">
+        <a href="home.html" class="hover:text-green-700 transition">Home</a>
+        <a href="about.html" class="hover:text-green-700 transition">About Us</a>
+        <a href="ecosystem.html" class="hover:text-green-700 transition">Ecosystem</a>
+        <a href="marketplace.html" class="hover:text-green-700 transition">Marketplace</a>
+        <a href="impact.html" class="hover:text-green-700 transition">Impact</a>
+        <a href="community.html" class="hover:text-green-700 transition">Community</a>
+        <a href="contact.html" class="hover:text-green-700 transition">Contact</a>
+      </nav>
+      <button class="md:hidden text-gray-700 focus:outline-none" aria-label="Toggle menu" id="menu-btn">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-10 space-y-20">
+    <!-- Hero Banner -->
+    <section class="text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-green-800 mb-4">Empowering Sustainable Futures with Padiwara</h1>
+      <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Join us in transforming rice husk waste into beautiful, eco-friendly products that support farmers, artisans, and the planet.</p>
+      <a href="#join" class="inline-block bg-green-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-800 transition">Join Us Today</a>
+    </section>
+
+    <!-- Overview of Padiwara -->
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">Our Vision & Mission</h2>
+      <div class="max-w-4xl mx-auto text-center text-gray-700 space-y-4">
+        <p>At Padiwara, we envision a world where agricultural waste is transformed into valuable resources, empowering farmers and artisans while reducing carbon footprints.</p>
+        <p>Our mission is to create sustainable economic opportunities through innovative supply mapping, crafting, and community engagement.</p>
+      </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="bg-white rounded-lg shadow p-8 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <i class="fas fa-seedling fa-3x text-green-600 mb-3"></i>
+        <h3 class="text-2xl font-semibold text-green-800">500+ Tons</h3>
+        <p class="text-gray-600">Carbon Saved</p>
+      </div>
+      <div>
+        <i class="fas fa-users fa-3x text-green-600 mb-3"></i>
+        <h3 class="text-2xl font-semibold text-green-800">1200+</h3>
+        <p class="text-gray-600">Farmers Empowered</p>
+      </div>
+      <div>
+        <i class="fas fa-hands-helping fa-3x text-green-600 mb-3"></i>
+        <h3 class="text-2xl font-semibold text-green-800">300+</h3>
+        <p class="text-gray-600">Artisans Empowered</p>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6 text-center">Featured Products</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition cursor-pointer">
+          <img src="https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150" alt="Kitchenware" class="rounded-md mb-3 w-full h-32 object-cover" />
+          <h3 class="font-semibold text-lg text-green-800">Eco Kitchenware</h3>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition cursor-pointer">
+          <img src="https://images.pexels.com/photos/1866147/pexels-photo-1866147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150" alt="Furniture" class="rounded-md mb-3 w-full h-32 object-cover" />
+          <h3 class="font-semibold text-lg text-green-800">Sustainable Furniture</h3>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition cursor-pointer">
+          <img src="https://images.pexels.com/photos/1866150/pexels-photo-1866150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150" alt="Home Decor" class="rounded-md mb-3 w-full h-32 object-cover" />
+          <h3 class="font-semibold text-lg text-green-800">Natural Home Decor</h3>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition cursor-pointer">
+          <img src="https://images.pexels.com/photos/1866151/pexels-photo-1866151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150" alt="Custom Orders" class="rounded-md mb-3 w-full h-32 object-cover" />
+          <h3 class="font-semibold text-lg text-green-800">Custom Orders</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section>
+      <h2 class="text-3xl font-bold text-green-800 mb-6 text-center">Success Stories</h2>
+      <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-xl text-green-700 mb-2">Farmer Highlight: Pak Budi</h3>
+          <p class="text-gray-600">Pak Budi transformed his rice husk waste into a profitable resource, improving his family's livelihood and reducing environmental impact.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-xl text-green-700 mb-2">Artisan Highlight: Ibu Sari</h3>
+          <p class="text-gray-600">Ibu Sari crafts beautiful rice husk boards into furniture, empowering local communities and promoting sustainable craftsmanship.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition cursor-pointer">
+          <h3 class="font-semibold text-xl text-green-700 mb-2">Community Impact</h3>
+          <p class="text-gray-600">Our community initiatives have created lasting economic and environmental benefits for farmers and artisans alike.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Join -->
+    <section id="join" class="bg-green-700 text-white rounded-lg p-10 text-center max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Join Padiwara Today</h2>
+      <p class="mb-6">Become a part of our growing community of farmers, artisans, and buyers committed to sustainable futures.</p>
+      <div class="space-x-4">
+        <a href="#" class="inline-block bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition">Farmers</a>
+        <a href="#" class="inline-block bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition">Artisans</a>
+        <a href="#" class="inline-block bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition">Buyers</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t mt-20 py-6 text-center text-gray-600 text-sm">
+    &copy; 2024 Padiwara. All rights reserved.
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const nav = document.querySelector('nav');
+    menuBtn.addEventListener('click', () => {
+      nav.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
